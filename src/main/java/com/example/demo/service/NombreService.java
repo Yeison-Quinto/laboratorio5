@@ -53,7 +53,7 @@ public class NombreService {
 	}
 	
 	public List<MNombre> obtener(){
-		return convertidor.comvertirLista(repositorio.findAll());
+		return convertidor.convertirLista(repositorio.findAll());
 	}
 	
 

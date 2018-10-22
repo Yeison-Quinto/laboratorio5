@@ -10,7 +10,7 @@ import com.example.demo.model.MNombre;
 @Component("convertidor")
 public class Converter {
 
-	public List<MNombre> comvertirLista(List<Nombre> nombre){
+	public List<MNombre> convertirLista(List<Nombre> nombre){
 		List <MNombre> mnombre = new ArrayList<>();
 		
 	for(Nombre nomb : nombre) {
